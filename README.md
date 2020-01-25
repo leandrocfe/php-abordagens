@@ -78,9 +78,6 @@ echo json_encode($user);
     As closures também podem ser passadas para outras funções PHP como argumentos, como qualquer outro valor. Neste exemplo a closure é utilizada como argumento do tipo callback, para modificar o objeto inicial e adicionar elementos:
 
 ```php
-//componente para valores aleatórios
-$faker = Faker\Factory::create();
-
 //tipos dos status
 $badges =[
     ['id' => 1, 'label' => 'bronze'],

@@ -7,9 +7,6 @@
     $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
     $whoops->register();
 
-    //componente para valores aleatórios
-    $faker = Faker\Factory::create();
-
     //tipos dos status
     $badges =[
         ['id' => 1, 'label' => 'bronze'],
